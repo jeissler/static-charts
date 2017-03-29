@@ -1,0 +1,27 @@
+{
+  "name": "static-charts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+
+  "devDependencies": {
+    "npm-run-all": "^4.0.2",
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-env": "^1.1.8",
+    "browser-sync": "^2.18.8",
+    "webpack": "^2.3.2"
+  },
+  
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
+  "scripts": {
+    "js:compile": "webpack --watch",
+    "serve": "browser-sync start -s -f './index.html' './css' './js'",
+    "start": "npm-run-all --parallel js:compile serve"
+  }
+}

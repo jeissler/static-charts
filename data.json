@@ -1,0 +1,29 @@
+[{ 
+    "id": 1, 
+    "name": "Oak Grove", 
+    "eq": { 
+        "Dozers": 99,
+        "Movers": 50,
+        "Haulers": 75,
+        "Trucks": 100
+    }
+},
+{ 
+    "id": 2, 
+    "name": "Maple Woods", 
+    "eq": { 
+        "Dozers": 85,
+        "Movers": 79,
+        "Haulers": 90
+    }
+},
+{ 
+    "id": 3, 
+    "name": "Blue Springs", 
+    "eq": { 
+        "Dozers": 99,
+        "Movers": 79,
+        "Haulers": 75,
+        "Crains": 78
+    }
+}]

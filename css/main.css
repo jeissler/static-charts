@@ -1,0 +1,12 @@
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+h1 {
+    max-width: 1200px;
+    margin: 25px auto 50px;
+}
+
+h4 {
+    margin: 5px 0 50px;
+}
